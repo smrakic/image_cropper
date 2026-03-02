@@ -1,0 +1,6 @@
+@ImageCropper.API_HostAddress = http://localhost:5120
+
+GET {{ImageCropper.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
