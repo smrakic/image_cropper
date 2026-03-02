@@ -2,9 +2,9 @@
 Full-stack aplikacija za upload i kropovanje slika koja omogućava logo-overlay
 
 # Tehnologije
-Backend: .NET 10 Web API
-Frontend: React
-Kontejnerizacija: Docker
+1. Backend: .NET 10 Web API
+2. Frontend: React
+3. Kontejnerizacija: Docker
 
 # Pokretanje aplikacije
 Potreban je Docker Desktop
@@ -14,4 +14,4 @@ Potreban je Docker Desktop
 2. Pokrenite komandom
    docker-compose up --build
 3. Link za pristup
-   http://localhost:3000 da li je ovo okej
+   http://localhost:3000
