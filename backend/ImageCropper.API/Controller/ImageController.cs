@@ -69,7 +69,7 @@ namespace ImageCropper.API.Controllers
 
                 // Provjeri postoji li config za logo overlay
                 var config = await ConfigController.GetLatestConfig(_connection);
-                Console.WriteLine($"Config: ScaleDown={config.ScaleDown}, Position={config.LogoPosition}, HasLogo={config.LogoImage != null}");
+                
                 if (config.LogoImage != null)
                 {
                     croppedImage = _imageProcessing.ApplyLogo(
