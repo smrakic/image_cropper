@@ -11,7 +11,8 @@ Potreban je Docker Desktop
 1. Klonirajte projekat:
    git clone https://github.com/smrakic/image_cropper.git
    cd image_cropper
-2. Pokrenite komandom
+2. Pokrenite Docker Desktop na svom uređaju
+3. Pokrenite komandom
    docker-compose up --build
-3. Link za pristup
+4. Link za pristup
    http://localhost:3000
